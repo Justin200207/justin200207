@@ -4,7 +4,7 @@ import Router from "./router/Router"
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/justin200207">
       <Router />
     </BrowserRouter>
   );
